@@ -5,9 +5,9 @@
 
 This repository contains the code for a plugin for [QGIS](https://www.qgis.org), called "Susceptibility Zoning plugin" (SZ-plugin), aiming at creating maps of susceptibility to various natural forcing elements.
 
-The plugin has been developed with a main focus and application towards landslides susceptibility, but it can be applied to different types of natural events or inter-disciplinary applications.
+The plugin has been developed with a main focus and application towards landslide susceptibility, but it can be applied to different types of natural events or inter-disciplinary applications.
 
-The plugin uses several type of statistical model for susceptibility evaluation, such as:
+The plugin uses several types of statistical models for susceptibility evaluation, such as:
 
 * Weight of Evidence
 * Frequency Ratio
@@ -52,9 +52,10 @@ It can be installed on QGIS3.x adding the Plugin Repository to QGIS ```manage an
 
 <img src="./images/addrepo.png" width="500">
 
-- edit repository and add [https://www.plugins.geoai.it/SZ/sz.xml](https://www.plugins.geoai.it/SZ/sz.xml)
+- edit repository and add [https://sztools.github.io/SZ/sz.xml](https://sztools.github.io/SZ/sz.xml)
 
-<img src="./images/repodetail.png" width="500">
+<img width="263" alt="image" src="https://github.com/user-attachments/assets/bbcb299d-b7d2-49a3-b5ff-184c1ee99fd8">
+
 <p>
 
 or
@@ -82,7 +83,7 @@ The functions are grouped into 3 cathegories:
 _Data preparation_ functions can be used for data pre-processing
 _SI_ functions run the statistic models for susceptibility, cross-validate by a simple random selection of train/test samples and evaluate the prediction capacity by ROC curves
 _SI k-fold_ functions run the statistic models for susceptibility, cross-validate by k-fold method and evaluate the prediction capacity by ROC curves
-_Classify SI_ functions allows to cathegorize the susceptibility index into _n_ classes on the base of AUC maximization.
+_Classify SI_ functions allows to categorize the susceptibility index into _n_ classes on the base of AUC maximization.
 
 ### Input data of SI and SI k-fold functions
 
